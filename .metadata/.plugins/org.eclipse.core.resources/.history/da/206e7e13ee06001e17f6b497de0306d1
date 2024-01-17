@@ -1,0 +1,12 @@
+package ExoIntro;
+
+public class testLivre {
+
+	public static void main(String[] args) {
+		Livre livre1 = new Livre();
+		livre1.setAuteur("Hugo");
+		livre1.setTitre("Les Misérables");
+		
+	}
+
+}

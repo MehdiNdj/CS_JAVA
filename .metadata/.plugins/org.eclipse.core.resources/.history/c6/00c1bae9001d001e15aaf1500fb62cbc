@@ -1,0 +1,13 @@
+package testExamen;
+
+public class Test1 {
+public static void main(String args []){
+	StringBuffer s = new StringBuffer("toto");
+	int x = 0;
+	procedure(s, x);
+	System.out.println(s.toString()+ x);
+}
+static void procedure(StringBuffer str, int x){
+str.append("titi"); x =1;
+}
+}

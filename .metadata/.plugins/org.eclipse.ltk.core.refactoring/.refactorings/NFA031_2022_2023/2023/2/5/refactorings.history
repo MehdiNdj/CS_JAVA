@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;Loops_Iterations.WhileLoop.java&apos; to &apos;DoWhileLoop.java&apos;&#x0D;&#x0A;- Original project: &apos;NFA031_2022_2023&apos;&#x0D;&#x0A;- Original element: &apos;Loops_Iterations.WhileLoop.java&apos;&#x0D;&#x0A;- Renamed element: &apos;Loops_Iterations.DoWhileLoop.java&apos;" description="Rename compilation unit &apos;WhileLoop.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;Loops_Iterations{WhileLoop.java" name="DoWhileLoop.java" references="false" stamp="1675272409076" version="1.0"/>
+</session>

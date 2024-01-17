@@ -1,0 +1,15 @@
+package ExoIntro;
+
+public class testVoiture {
+
+	public static void main(String[] args) {
+		Voiture voiture1 = new Voiture();
+		voiture1.setMarque("BMW");
+		voiture1.setPuissance(250);
+		voiture1.setVitesse(250);
+		Voiture voiture2 = new Voiture("MERCEDES", 180, 150);
+		
+		System.out.println(voiture2.getVitesse());
+	}
+
+}

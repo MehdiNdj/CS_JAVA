@@ -1,0 +1,49 @@
+package ExoIntro;
+
+public class Voiture {
+
+	private int id;
+	private String marque;
+	private double vitesse;
+	private int puissance;
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public String getMarque() {
+		return marque;
+	}
+	public void setMarque(String marque) {
+		this.marque = marque;
+	}
+	public double getVitesse() {
+		return vitesse;
+	}
+	public void setVitesse(double vitesse) {
+		this.vitesse = vitesse;
+	}
+	public int getPuissance() {
+		return puissance;
+	}
+	public void setPuissance(int puissance) {
+		this.puissance = puissance;
+	}
+			public static int count = 0;
+			public Voiture(String marque, double vitesse, int puissance) {
+				this.id = ++count ;
+				this.marque = marque;
+				this.vitesse = vitesse;
+				this.puissance = puissance;
+			}
+	
+			public Voiture() {
+			}
+//			@Override
+//			public String toString() {
+//				return "Voiture [id=" + id + ", marque=" + marque + ", vitesse=" + vitesse + ", puissance=" + puissance
+//						+ "]";
+	//		}
+	
+}

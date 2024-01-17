@@ -1,0 +1,19 @@
+package testExamen;
+
+public class Test1 {
+public static void main(String[] args) {
+A x = new B();
+x.afficheToi();
+}
+}
+class A {
+void afficheToi() {
+System.out.println("je suis un A");
+}
+}
+class B extends A {
+@Override
+void afficheToi() {
+System.out.println("je suis un B");
+}
+}

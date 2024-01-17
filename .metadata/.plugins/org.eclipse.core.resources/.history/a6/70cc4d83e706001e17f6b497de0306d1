@@ -1,0 +1,10 @@
+package ExoIntro;
+
+public class testVoiture {
+
+	public static void main(String[] args) {
+		;
+
+	}
+
+}

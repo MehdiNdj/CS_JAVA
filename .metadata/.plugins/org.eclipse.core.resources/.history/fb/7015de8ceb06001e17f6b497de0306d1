@@ -1,0 +1,10 @@
+package ExoIntro;
+
+public class Livre {
+
+	private int Id;
+	private String Titre;
+	private String Auteur;
+	
+	
+}
